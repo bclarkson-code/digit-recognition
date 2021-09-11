@@ -72,7 +72,7 @@ if __name__ == "__main__":
             # Handle drawing on the screen
             px, py = pygame.mouse.get_pos()
             if pygame.mouse.get_pressed() == (1, 0, 0):
-                pygame.draw.rect(screen, (0, 0, 0), (px, py, 75, 75))
+                pygame.draw.rect(screen, (0, 0, 0), (px, py, 56, 56))
             if event.type == pygame.MOUSEBUTTONUP:
                 press == False
             pygame.display.update()
